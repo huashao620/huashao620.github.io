@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tencent视频转载平台</title>
+	<script>
+		window.onload = function() {
+			alert('欢迎访问Tencent视频转载平台！');
+		};
+
+		function displayDate(){
+			document.getElementById("demo").innerHTML=Date();
+		}
+	</script>
+	<style>
+		.green-box {
+    background-color: rgb(128, 128, 0); /* 设置div盒子的背景颜色 */
+    padding: 10px; /* 为div盒子添加一些内边距 */
+    color: white; /* 设置div盒子内文字颜色为白色 */
+    border-radius: 5px; /* 可选：为div盒子添加圆角边框 */
+    width: 200px; /* 盒子的宽度根据内容自动调整 */
+    height: auto; /* 盒子的高度根据内容自动调整 */
+}
+		body {
+			background: linear-gradient(
+            to right,
+            rgb(65, 168, 99),
+            rgb(106, 44, 251)
+          );
+			font-family: Arial, sans-serif;
+		}
+		.image-container {
+			overflow: hidden; /* 清除浮动 */
+			margin-bottom: 20px; /* 在每个图片和盒子组合之间添加一些空间 */
+		}
+		.image-container img {
+			float: left; /* 图片左浮动 */
+			width: 495px; /* 设置图片宽度 */
+			height: 500px; /* 保持图片高宽比 */
+			margin-right: 10px; /* 在图片和盒子之间添加一些空间 */
+			margin-left: 180px; /* 图片向右移动180像素 */
+		}
+		.box-under-image {
+			float: left; /* 盒子左浮动 */
+			width: 500px; /* 设置盒子的宽度 */
+			height: 500px; /* 设置盒子的高度 */
+			font-size: 18px; /* 设置字体大小为16像素 */
+			margin-left: 150px; /* 向右移动150像素 */
+		}
+		.box-color1 { background-color: #FFD700; } /* 金色 */
+		.box-color2 { background-color: #ADFF2F; } /* 绿黄色 */
+		.box-color3 { background-color: #FF69B4; } /* 热粉红色 */
+	</style>
+</head>
+<body>
+	<h1>前端网页:Tencent视频转载平台</h1>
+	<button type="button" onclick="displayDate()">显示日期</button>
+	<p id="demo"><em><strong>点击按钮</strong>显示当前日期时间</em></p>
+	<hr />
+    <div class="green-box">
+        <p>
+            <em><strong>点击图片</strong>进入相应播放页面:</em>
+        </p>
+    </div>
+	<div class="image-container">
+		<a href="https://v.qq.com/x/search/?q=%E7%A5%9E%E5%8D%B0%E7%8E%8B%E5%BA%A7">
+			<img src="images\神印王座美图.jpg" alt="神印王座美图"></a>
+		<div class="box-under-image box-color1">
+			<h2>《神印王座》简介</h2>
+            六千年前，魔神皇枫秀与七十二根魔神柱从天而降，所有生物沾染魔神柱散发的气息，立刻会变异成魔族生物，人类随之进入黑暗年代。
+			随后，人类强者自行组织六大圣殿，阻挡魔族前进的脚步，逐渐形成人魔共存的局面。 
+			主角龙皓晨，为救母加入六大圣殿之一的骑士圣殿成为一名骑士，在一步步成长冒险中，奇遇，诡计，命运般的爱情与友情不断在他身上上演。
+			龙皓晨坚守骑士精神，通过自己的人格与努力，赢得他人认可。他先是与六大圣殿其他天才少年组成“1号猎魔团”对抗魔族，为人类的生存与尊严奋战。
+			同时不惜献出生命，守护自己的伙伴与最珍贵的爱人。而世界的局势变化难测，更多的阴谋在酝酿，更深的秘密也等着他去揭开。 
+			而最终龙皓晨是否能赢得神印王座的认可，登上骑士圣殿的最高荣耀，同时他又是否能面对所有真相揭开的那一刻，化解整个世界最大的危机，一切都有待揭晓。
+		</div>
+	</div>
+	<div class="image-container">
+		<a href="https://v.qq.com/x/search/?q=%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86&stag=2&smartbox_ab=">
+			<img src="images\斗罗大陆美图.jpg" alt="斗罗大陆美图"></a>
+		<div class="box-under-image box-color2">
+			<h2>《斗罗大陆》简介</h2>
+			唐门外门弟子唐三，因偷学内门绝学为唐门所不容，以另外一个身份来到了另一个世界，一个属于武魂的世界，名叫斗罗大陆。
+			这里没有魔法，没有斗气，没有武术，却有神奇的武魂。这里的每个人，在自己六岁的时候，都会在武魂殿中令武魂觉醒。
+			武魂有动物，有植物，有器物，武魂可以辅助人们的日常生活。
+			而其中一些特别出色的武魂却可以用来修炼并进行战斗，这个职业，是斗罗大陆上最为强大也是最荣耀的职业“魂师”。 
+			小小的唐三在圣魂村开始了他的魂师修炼之路，并萌生了振兴唐门的梦想。当唐门暗器来到斗罗大陆，当唐三武魂觉醒，他能否在这片武魂的世界再铸唐门的辉煌？
+		</div>
+	</div>
+	<div class="image-container">
+		<a href="https://v.qq.com/x/search/?q=%E4%B8%8D%E8%89%AF%E4%BA%BA">
+			<img src="images\不良人美图.png" alt="不良人美图"></a>
+		<div class="box-under-image box-color3">
+			<h2>《不良人》简介</h2>
+			唐朝末年，天下大乱，藩镇割据，群雄并起。
+            据说黄巢叛军攻陷长安之前，官府中的神秘组织不良人，曾经执行过最后一次任务，然后便消失不见了，几乎与他们同时消失的，还有叛军搜遍长安也未曾找到的国库宝藏。
+			自此以后，江湖上便传出一条谣言，在传说中的龙泉剑上，隐藏着一个天大的秘密。
+            直到有一天，一个名叫李星云的神秘孤儿，机缘巧合下被隐士阳叔子所救，并拜在其门下学武。
+			数年之后，李星云与师妹陆林轩下山历练，途中结识了姬如雪和张子凡两个好友，后来又偶然得到了传说中的龙泉剑。
+            这样一来，李星云和龙泉剑引起了包括玄冥教、通文馆、幻音坊和天师府等诸多门派的觊觎，他们动着各种各样的心思，或巧取豪夺，或通缉追杀，各种手段招数无所不用其极，甚至连消失已久的不良人也有重出江湖的迹象。
+            李星云这个身世成谜的少年，就这样和他的朋友们周旋于险恶的江湖之中，为了求得一条生存之道而努力挣扎着。
+		</div>
+	</div>
+</body>
+</html>
